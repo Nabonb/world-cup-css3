@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    width: 100%;
+    
+}
+    /* 
+    <!-- heading section start -->
+     */
+
+.heading-sec{
+    background: #161616;
+    border-radius: 30px;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    margin-bottom: 80px;
+}
+.heading-sec:hover{
+    background-color: aqua;
+    transition: background-color 3s ease-in-out;
+}
+.heading-sec:hover h1{
+    color: #161616;
+    transition:color 3s ease-in-out ;
+}
+.heading-sec:hover p{
+    color: #161616;
+    transition:color 3s ease-in-out ;
+}
+.half-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.half-div h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-top: 111px;
+    margin-left: 106px;
+}
+.half-div p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 106px;
+    margin-bottom: 30px;
+}
+.half-div a{
+    display: flex;
+    align-items: center;
+    margin-left: 106px;
+    background: #DD0000;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    width: 187px;
+    height: 56px;
+    padding: 16px 25px;
+    margin-bottom: 20px;
+}
+.fa-arrow-right{
+    margin-left: 9px;
+}
+
+    /* 
+    <!-- heading section end --> 
+    */
+
+    /* 
+    <!-- blog section start --> 
+    */
+.blog-section{
+    margin: 0 auto;
+    width: 90%;
+    background-color: #DD0000;
+}
+.main-blog{
+    background: #161616;
+    border-radius: 10px;
+    width: 312px;
+    height: 312px;
+    padding: 30px;
+}
+.main-blog div{
+    margin: 30px;
+    
+}
+
+a{
+    
+    font-weight: 500;
+    font-size: 20px;
+    padding: 17px 39px;
+    
+    
+}
+.color-white{
+    color: #161616;
+}
+.color-white{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+.color-red{
+    background: #DD0000;
+    border-radius: 10px;
+}
+.color-red{
+    color: white
+}
+
+
+
+
+
+/* MEADIA QUERY SECTION */
+@media only screen and (max-width:1256px) and (min-width:780px) {
+    .half-div h1{
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .half-div{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:780px) and (min-width:629px) {
+    .heading-sec{
+        flex-direction: column;
+    }
+    .half-div{
+        width: 100%;
+    }
+    .half-div h1{
+        text-align: center;
+        margin: 28px 53px;
+        margin-bottom: 0px;
+    }
+    .half-div p{
+        margin: 18px 87px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .half-div{
+        text-align: center;
+    }
+    .half-div a{
+        margin: 0%;
+        margin-bottom: 21px;
+    }
+    #anchor-div{
+        display: flex;
+        justify-content: center;
+    }
+    .for-first-image{
+        width: 70%;
+        
+        margin-left: 83px;
+        margin-right: 58px;
+    }
+    
+}
+@media only screen and (max-width:629px) and (min-width:512px){
+    .for-first-image{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .heading-sec{
+        flex-direction: column;
+       
+    }
+    .half-div h1{
+        
+        font-weight: 700;
+        font-size: 30px;
+        margin-left: 0px;
+        
+    }
+    .half-div{
+        width: 80%;
+        text-align: center;
+    }
+    .half-div p{
+        
+        margin-left: 0px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .heading-sec{
+        align-items: center;
+    }
+    #anchor-div a{
+        margin-bottom: 21px;
+        
+    }
+    #anchor-div{
+        justify-content: center;
+    }
+    .half-div a{
+        height: 50%;
+        width: 50%;
+
+    }
+    
+    
+}
+@media only screen and (max-width:512px){
+    .for-first-image{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .heading-sec{
+        flex-direction: column;
+       
+    }
+    .half-div h1{
+        
+        font-weight: 700;
+        font-size: 28px;
+        margin-left: 0px;
+        
+    }
+    .half-div{
+        width: 80%;
+        text-align: center;
+    }
+    .half-div p{
+        
+        margin-left: 0px;
+    }
+    .heading-sec{
+        align-items: center;
+    }
+    #anchor-div{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    #anchor-div a{
+        margin: 0 auto;
+        margin-bottom: 21px;
+    }
+}
