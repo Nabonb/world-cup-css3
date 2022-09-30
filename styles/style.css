@@ -189,8 +189,27 @@ main{
     padding: 20px;
     padding-top: 0px;
 }
+.national-flag{
+    width: 40%;
+    margin: 20px 10px;
+    
+}
+.height-width{
+    width: 312px;
+    height: 242px;
+}
+.VS{
+    margin: auto 0px;
+}
+.flag-flex{
+    display: flex;
+}
+.time-zone{
+    width: 100%;
+    text-align: center;
+}
     /* 
-    <!-- blog section start --> 
+    <!-- blog section end --> 
     */
 
     /* 
